@@ -21,8 +21,8 @@ def run_python_script(script_path):
 
 def main():
     # Replace the following paths with the paths to your Python scripts
-    script_path_1 = "/home/pilli007/Desktop/Proj-Automation/angular-frontend.py"
-    script_path_2 = "/home/pilli007/Desktop/Proj-Automation/spring-backend-automation.py"
+    script_path_1 = "/home/pilli007/Desktop/AutomationScripts/Proj-Automation/angular-frontend.py"
+    script_path_2 = "/home/pilli007/Desktop/AutomationScripts/Proj-Automation/spring-backend-automation.py"
 
     # Create two separate processes for eachr script
     process1 = multiprocessing.Process(target=run_python_script, args=(script_path_1,))
