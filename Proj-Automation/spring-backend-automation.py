@@ -19,7 +19,7 @@ def run_command(command):
 
 def main():
     # Replace the following path with the desired path to navigate in the terminal
-    path_to_backend = "/home/pilli007/Desktop/MajorProject/MajorProjectBackend"
+    path_to_backend = "/home/pilli007/Desktop/MajorProject/MajorProject/MajorProjectBackend"
     
     # Command to navigate to the specified path
     cd_command = f"cd {path_to_backend}"
