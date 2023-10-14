@@ -8,7 +8,7 @@ def run_command(command):
 
 def main():
     # Replace the following path with the desired path to navigate in the terminal
-    path_to_frontend = "/home/pilli007/Desktop/MajorProject/MajorProject/MajorProjectFrontend"
+    path_to_frontend = "/home/pilli007/Desktop/MajorProject/MajorProjectFrontend"
     
     # Command to navigate to the specified path
     cd_command = f"cd {path_to_frontend}"
